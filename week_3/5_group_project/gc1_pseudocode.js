@@ -1,3 +1,4 @@
+// PseudoCode
 sum = function(parameters){code} //create a function called sum
 sum = function(array){return calculated total of all numbers within 'array'}
 sum = function(array){return calculated total of all numbers within 'array'}
