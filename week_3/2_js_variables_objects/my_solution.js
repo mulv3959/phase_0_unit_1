@@ -1,18 +1,26 @@
-// I paired [by myself, with:] on this challenge.
+// I paired by myself on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// Make sure the value of the secret number is a number
+// Make sure that number is 7
+// The value of the password must be a string
+// That string must be 'just open the door'
+// The value of allowedIn should be a boolean
+// The boolean should be false
+// The value of members should be an array
+// The first member of the array must be John
+// the fourth member of the array must be Mary 
 
 
 // __________________________________________
 // Write your code below.
-
+var secretNumber = 7;
+var password = 'just open the door';
+var allowedIn = false;
+var members = ["John", "Simon", "Jeff", "Mary"]
 
 
 
@@ -23,13 +31,14 @@
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
 
 
-
+// About as short as I can make it.
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
+//  Honestly I really did not like this challenge. I do not think I learned anything.
+// I simply made the variables it told me too and then it worked. I do not really understand why it worked or why it would not have worked though.
 // 
 // 
 // 
@@ -38,7 +47,6 @@
 
 // __________________________________________
 // Driver Code:  Do not alter code below this line.
-
 function assert(test, message, test_number) {
   if (!test) {
     console.log(test_number + "false");
