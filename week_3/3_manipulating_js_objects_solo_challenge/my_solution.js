@@ -15,26 +15,33 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
-
+var adam = {}
 2. Give adam a name property with the value "Adam".
-
+adam.name = "Adam"
 3. Add a spouse property to terah and assign it the value of adam.
-
+terah.spouse = adam
 4. Change the value of the terah weight property to 125.
-
+terah.weight = 125
 5. Remove the eyeColor property from terah.
-
+delete terah.eyeColor
 6. Add a spouse property to adam and assign it the value of terah.
-
+adam.spouse = terah
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
+   var children = {}
+   terah.children = children
 
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
+  var carson = {}
+  carson.name = "Carson"
+  children.carson = carson
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
-
+  var carter = {}
+  carter.name = "Carter"
+  children.carter = carter
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
 
@@ -45,9 +52,34 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+var adam = {}
 
+adam.name = "Adam"
 
+terah.spouse = adam
 
+terah.weight = 125
+
+delete terah.eyeColor
+
+adam.spouse = terah
+
+var children = {}
+terah.children = children
+
+var carson = {}
+carson.name = "Carson"
+children.carson = carson
+
+var carter = {}
+carter.name = "Carter"
+children.carter = carter
+
+var colton = {}
+colton.name = "Colton"
+children.colton = colton
+
+adam.children = terah.children
 
 
 
@@ -55,7 +87,18 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
+// What parts of your strategy worked? What problems did you face?
+//What questions did you have while coding? What resources did you find to help you answer them?
+//What concepts are you having trouble with, or did you just figure something out? If so, what?
+// At the beginning I was thinking way too much. I thought I had to understand fully what the Driver code meant.
+// because of this I found it incredibly frustrating. However when I started focusing only on what the directions
+//were asking me to do I was able to accomplish it pretty easily. It took me a bit to figure out steps 7-10
+// but then I realized they were asking for the same things as the previous steps just combined into one step. 
+// like step 8 is basically the same ideas as steps 1-3 just combined into only one step (if that makes any sense).
+//Did you learn any new skills or tricks?
+//How confident are you with each of the Learning Competencies?
+//Which parts of the challenge did you enjoy?
+//Which parts of the challenge did you find tedious?
 // 
 // 
 // 
