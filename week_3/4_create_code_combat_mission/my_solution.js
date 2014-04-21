@@ -50,6 +50,9 @@ function Player(name, number, team, locationx, locationy){
 
 var Rubio = new Player("Ricky Rubio", 9, "Timberwolves", 0, 0)
 
+Rubio.moveUp()
+Rubio.moveUp()
+Rubio.shoot()
 
 // Refactored Code
 
