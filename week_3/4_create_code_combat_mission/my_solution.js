@@ -62,11 +62,11 @@ Rubio.shoot()
 
 
 // Reflection
-// 
-// 
-// 
-// 
-// 
-// 
+// This was a very good challenge. First when I looked at it I had no idea what to do. I'm not sure the first two challenges 
+// prepared me well enough for this. But after I had my pairing session and knew a little more this was perfect.
+// I mainly used this site (http://tobyho.com/2010/11/22/javascript-constructors-and/) as a tool. It gives a lot of good examples
+// and explanations. Not sure if there is an easier way to write this code. Maybe one were I do not have so mnay functions inside
+// of one big function but my code all works. Watching my code actually work and thinking about how much farther I could go
+// with this challenge is exciting.
 // 
 // 
